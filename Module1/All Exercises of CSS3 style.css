@@ -1,0 +1,116 @@
+
+/* Exercise 1 */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background-color: rgba(240, 240, 255, 0.9);
+  background-image: url('background.jpg');
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+h1 { color: #004488; }
+h2 { color: teal; margin-bottom: 10px; }
+h3, p { font-family: Arial, sans-serif; color: #333; }
+#mainHeader { font-size: 28px; font-weight: bold; color: navy; }
+.eventCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  padding: 15px;
+}
+
+/* Exercise 2 */
+.cta-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Exercise 3 - Already included above */
+
+/* Exercise 4 */
+section h2 {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 10px;
+}
+
+/* Exercise 5 */
+p.description {
+  font-size: 1.1em;
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+
+/* Exercise 6 */
+nav a:link { color: #0077cc; }
+nav a:visited { color: purple; }
+nav a:hover { text-decoration: underline; }
+nav a:active { color: red; }
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+nav li { margin: 5px 0; }
+
+/* Exercise 7 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Exercise 8 */
+input:focus {
+  outline: 2px solid #007BFF;
+}
+.hidden { visibility: hidden; }
+.not-displayed { display: none; }
+
+/* Exercise 9 */
+.news-section {
+  column-count: 2;
+  column-gap: 30px;
+  column-rule: 1px solid gray;
+  margin-top: 20px;
+}
+
+/* Exercise 10 */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  body {
+    font-size: 14px;
+  }
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Exercise 11 */
+.devtools-test {
+  padding: 10px;
+  border: 2px dashed gray;
+  margin: 20px 0;
+}
